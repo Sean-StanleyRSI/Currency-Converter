@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<currencies>
+	<currency id="1">
+		<name>US Dollar</name>
+		<rate>1.0</rate>
+		<symbol>$</symbol>
+	</currency>
+	<currency id="2">
+		<name>CAN Dollar</name>
+		<rate>1.30346</rate>
+		<symbol>C$</symbol>
+	</currency>
+		<currency id="3">
+		<name>Icelandic Krona</name>
+		<rate>125.856</rate>
+		<symbol>kr</symbol>
+	</currency>
+</currencies>
