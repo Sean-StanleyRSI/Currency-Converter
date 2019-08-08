@@ -33,7 +33,7 @@ public class CurrencyConverter
 		Currency[] newCurrencies = null;
 		
 		try {
-			File fXmlFile = new File("/Users/sean.stanley/Practice/CurrencyConverter/currency.xml");
+			File fXmlFile = new File("C:/Users/sean.stanley/git/Currency-Converter/CurrencyConverter/currency.xml");
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(fXmlFile);
