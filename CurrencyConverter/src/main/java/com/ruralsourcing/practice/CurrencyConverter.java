@@ -35,7 +35,7 @@ public class CurrencyConverter {
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(fXmlFile);
-					
+			
 			doc.getDocumentElement().normalize();
 					
 			NodeList nList = doc.getElementsByTagName("currency");
