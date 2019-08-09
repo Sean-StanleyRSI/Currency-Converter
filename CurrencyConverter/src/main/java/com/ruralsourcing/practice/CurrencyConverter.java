@@ -111,7 +111,7 @@ public class CurrencyConverter
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
             DOMSource domSource = new DOMSource(document);
-            StreamResult streamResult = new StreamResult(new File("/Users/sean.stanley/Practice/CurrencyConverter/currency.xml"));
+            StreamResult streamResult = new StreamResult(new File("C:/Users/sean.stanley/git/Currency-Converter/CurrencyConverter/currency.xml"));
  
             transformer.transform(domSource, streamResult);
  
