@@ -22,8 +22,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-public class CurrencyConverter 
-							{
+public class CurrencyConverter {
 	public double currencyAmount;
 	public Currency currencyType;
 	private static DecimalFormat df2 = new DecimalFormat("#.##");
@@ -68,11 +67,8 @@ public class CurrencyConverter
 	
 	private static void saveCurrencies() {
 		try {
-			 
             DocumentBuilderFactory documentFactory = DocumentBuilderFactory.newInstance();
- 
             DocumentBuilder documentBuilder = documentFactory.newDocumentBuilder();
- 
             Document document = documentBuilder.newDocument();
  
             // root element
