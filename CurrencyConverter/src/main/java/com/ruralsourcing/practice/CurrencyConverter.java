@@ -1,6 +1,5 @@
 package com.ruralsourcing.practice;
 
-
 import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.Scanner;
