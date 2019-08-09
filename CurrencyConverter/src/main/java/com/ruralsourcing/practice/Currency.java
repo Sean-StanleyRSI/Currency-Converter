@@ -5,7 +5,7 @@ public class Currency {
 	private double conversionRate;
 	private String symbol;
 	private Integer id;
-		
+	
 	Currency(String name, double rate, String symbol, Integer id) {
 		this.name = name;
 		this.conversionRate = rate;
