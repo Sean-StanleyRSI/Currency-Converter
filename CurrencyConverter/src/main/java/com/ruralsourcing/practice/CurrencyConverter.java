@@ -302,9 +302,9 @@ public class CurrencyConverter extends JPanel implements ActionListener{
 		Currency key = chooseCurrencyType(current, "Choose currency for Conversion Rate update:" + "\n");
 		
 		if (!key.equals(currencies[0])) {
-			log.append("Please enter the updated US Dollar to " + key.getName() + " conversion rate:");
+			String rate = JOptionPane.showInputDialog("Please enter the updated US Dollar to " + key.getName() + " conversion rate:");
 			try {
-				double value = Double.parseDouble(current.tf.getText());
+				double value = Double.parseDouble(rate);
 				key.setRate(value);
 				log.append("Currency " + key.getName() + " has been updated with a US Dollar to " + key.getName() + " exchange rate of " + value + "\n");
 			} catch(NumberFormatException e) {
